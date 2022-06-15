@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { createTheme } from '@mui/material/styles';
-import emotionStyled from '@emotion/styled';
+// import emotionStyled from '@emotion/styled';
+import { styled } from '@linaria/react';
 
-const Div = emotionStyled('div')(
+const Div = styled('div')(
   ({ theme }) => `
   width: 200px;
   height: 200px;

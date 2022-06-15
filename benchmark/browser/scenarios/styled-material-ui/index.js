@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+// import { styled } from '@mui/material/styles';
+import { styled } from '@linaria/react';
 
 const Div = styled('div')(
   ({ theme }) => `

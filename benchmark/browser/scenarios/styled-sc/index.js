@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { createTheme } from '@mui/material/styles';
-import styledComponents, {
+import {
   ThemeProvider as StyledComponentsThemeProvider,
 } from 'styled-components';
+import { styled } from '@linaria/react';
 
-const Div = styledComponents('div')(
+const Div = styled('div')(
   ({ theme }) => `
   width: 200px;
   height: 200px;
